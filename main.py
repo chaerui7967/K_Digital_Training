@@ -7,4 +7,4 @@ def expreimental():
 
 
 def new_feature():
-    pass
+    print('커밋')

@@ -1,0 +1,75 @@
+#1번 람다식
+f = lambda x,y:x**y
+# (lambda x,y:x**y)(3,2)
+
+#2번
+ex = [1,2,3,4,5]
+al=list(map(lambda x:x**2,ex))
+print(al)
+
+#3번
+#정답 ==> 3번
+
+#4번
+#정답 ==> 3번
+
+#5번
+#정답 ==> 2번
+
+#6번
+#import fah_converter as fah
+
+#7번
+#from game import *
+#from game.graphic.render import *
+
+#8번
+# f= open('hello_python.txt','a')
+# f.write('hello, python!')
+
+#9번
+#가) w
+#나) a
+#다) r
+
+#10번
+# from calculator import *
+#파일내에서 함수를 바로씀
+
+#11번
+7
+3
+2
+1
+1
+1
+'종료되었습니다.'
+
+#12번
+#정답 ==> 5번
+
+#13번
+#정답 ==> 4번
+
+#14번
+#== 4번
+
+#15
+#정답 == >4번
+
+#16
+'숫자가 아닙니다'
+
+#17
+#1- NameError
+#2- IOError
+#3- RuntimeError
+#4- KeyError
+
+#18
+'Not divided by 0'
+
+#19
+with open('i_have_a_dream.txt','r') as f:
+    contents = f.read()
+    print(contents)

@@ -1,7 +1,6 @@
-#.gitignore
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,python,macos,pycharm,django
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,python,macos,pycharm,django
+# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,python,jupyternotebooks,django,pycharm
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,python,jupyternotebooks,django,pycharm
 
 ### Django ###
 *.log
@@ -159,6 +158,17 @@ Thumbs.db
 # profiling data
 .prof
 
+
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+*/.ipynb_checkpoints/*
+
+# IPython
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
 
 ### macOS ###
 # General
@@ -386,4 +396,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,python,macos,pycharm,django
+# End of https://www.toptal.com/developers/gitignore/api/windows,macos,python,jupyternotebooks,django,pycharm

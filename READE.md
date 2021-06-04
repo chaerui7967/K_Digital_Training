@@ -2,5 +2,5 @@
 
 ## 개요
 
-![image-20210604114635194](READE.assets/image-20210604114635194.png)
+![image-20210604145521250](READE.assets/image-20210604145521250.png)
 

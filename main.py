@@ -8,3 +8,8 @@ def expreimental():
 
 def new_feature():
     print('커밋')
+
+
+def new():
+    print('new')
+    print('asdf')

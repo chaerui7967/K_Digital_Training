@@ -1,0 +1,14 @@
+데이터 선정
+
+데이터 전처리 
+
+데이터 관계 확인
+.info .describe .profiling_report
+
+상관관계 파악 n-coding, 정규화, 일반화
+
+시각화
+
+스토리 생성
+
+++ 모델링

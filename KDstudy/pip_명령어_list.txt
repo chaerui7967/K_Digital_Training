@@ -1,1 +1,0 @@
-pip freeze 버전확인

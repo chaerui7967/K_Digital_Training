@@ -39,3 +39,6 @@ select count(customers.state) from customers where customers.state is not null;
 use tip;
 
 select total_bill from tips where tip >= 7;
+
+select day, avg(tip), count(*) from tips
+group by day order by day desc; #(asc 기본)

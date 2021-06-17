@@ -42,3 +42,7 @@ select total_bill from tips where tip >= 7;
 
 select day, avg(tip), count(*) from tips
 group by day order by day desc; #(asc 기본)
+
+SELECT smoker, total_bill, AVG(tip), count(*)
+FROM tips
+GROUP BY smoker, day order by smoker;
